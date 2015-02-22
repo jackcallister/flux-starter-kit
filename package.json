@@ -1,0 +1,22 @@
+{
+  "author": "Jack Callister",
+  "name": "flux-comment",
+  "version": "0.0.1",
+  "description": "Experimenting with the flux pattern",
+  "repository": "https://github.com/jarsbe/flux-comment",
+  "dependencies": {
+    "flux": "^2.0.0",
+    "object-assign": "^1.0.0",
+    "react": "^0.12.2"
+  },
+  "devDependencies": {
+    "jsx-loader": "^0.12.2",
+    "reactify": "^0.15.2",
+    "webpack": "^1.5.3"
+  },
+  "scripts": {
+    "start": "npm run webpack & npm run serve",
+    "webpack": "webpack -w",
+    "serve": "cd dist && python -m SimpleHTTPServer"
+  }
+}
