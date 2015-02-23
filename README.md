@@ -1,22 +1,34 @@
-## Flux Comment
+## Flux Starter Kit
 
-This is an example app built with the Flux pattern. It's really a broken down re-write of the [Flux Chat](https://github.com/facebook/flux/tree/master/examples/flux-chat) example.
+This is the accompanying starter kit for the Flux Quick Start Guide.
 
-## Running
+## Setup
 
-You must have [npm](https://www.npmjs.org/) installed on your computer.
-From the root project directory run these commands from the command line:
+*You must have [npm](https://www.npmjs.org/) installed on your computer.*
+
+`git clone https://github.com/jarsbe/flux-starter-kit.git`
+
+`cd flux-starter-kit`
 
 `npm install`
 
-This will install all dependencies.
+This will install all dependencies. The dependencies for this kit include.
+
+- Flux
+- React
+- Object Assign
+- Webpack
+- JSX Loader
+
+## Running
 
 To build the project, first run this command:
 
 `npm start`
 
-This will make webpack watch the project and build a new bundle on each change. It also starts python server.
+This will make Webpack watch the project and build a new `bundle.js` file on each change. It also starts a Python server.
 
-`localhost:8000`
+Visit `localhost:8000` and you should see the text `Great Scott, it works!`
 
-More to come...
+With that setup and running you can continue following along with the guide.
+

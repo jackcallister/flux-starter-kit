@@ -4,7 +4,7 @@ var CommentForm = React.createClass({
 
   render: function() {
     return (
-      <div />
+      <h1>Great Scott, it works!</h1>
     );
   }
 
