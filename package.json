@@ -7,7 +7,8 @@
   "dependencies": {
     "flux": "^2.0.0",
     "object-assign": "^1.0.0",
-    "react": "^0.12.2"
+    "react": "^0.12.2",
+    "node-http-server": "^2.0.0"
   },
   "devDependencies": {
     "jsx-loader": "^0.12.2",
@@ -16,7 +17,9 @@
   },
   "scripts": {
     "start": "npm run webpack & npm run serve",
+    "start-node": "npm run webpack & npm run serve-node",
     "webpack": "webpack -w",
-    "serve": "cd dist && python -m SimpleHTTPServer"
+    "serve": "cd dist && python -m SimpleHTTPServer",
+    "serve-node": "node ./node_modules/node-http-server/server/http.js root=./dist port=8888 launch=now"
   }
 }
